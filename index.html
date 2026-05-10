@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andrea & Steven | Seating Chart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <img src="floral-left.png" class="floral floral-left" alt="">
+    <img src="floral-left.png" class="floral floral-right" alt="">
+    
+    <header>
+        <h1>Andrea and Steven</h1>
+        <p class="date">May 21st, 2026</p>
+
+        <div class="monogram-container">
+        <img src="monogram.png" id="monogram" alt="S&A Monogram">
+        </div>
+    </header>
+
+<main>
+    <h2>Find your seat</h2>
+    
+    <div class="search-container">
+        <input type="text" id="guestSearch" placeholder="Type your name...">
+        <button id="voiceBtn" title="Search by voice">🎤</button>
+    </div>
+
+    <!-- Alphabet Jump Bar -->
+    <nav id="alphabetNav"></nav>
+    
+    <ul id="guestList"></ul>
+</main>
+
+    <script>
+        const guestListUI = document.getElementById('guestList');
+        const searchBar = document.getElementById('guestSearch');
+        let guests = [];
+
+        // 1. Load the data
+        /*async function loadGuests() {
+            // Replace with your JSON file path or a simple array
+            guests = [
+                { name: "Alice Johnson", table: "Table 1" },
+                { name: "Bob Smith", table: "Table 4" },
+                { name: "Andrea Steward", table: "Head Table" },
+                { name: "Steven Citro", table: "Head Table" }
+            ];
+            displayGuests(guests);
+        }*/
+
+        // 1. Load the data from the external JSON file
+        async function loadGuests() {
+            try {
+                // fetch() looks for the file on your server
+                const response = await fetch('guests.json');
+                
+                // Check if the file was actually found
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                // Convert the raw data into a JavaScript array
+                guests = await response.json();
+                
+                // Display the full list initially
+                displayGuests(guests);
+            } catch (error) {
+                console.error("Could not load guest list:", error);
+                guestListUI.innerHTML = "<li>Error loading guest list. Please try again later.</li>";
+            }
+        }
+
+        // Initialize the app
+        loadGuests();
+
+        // 2. Display the data
+        // --- Alphabet Grouping Logic ---
+        function displayGuests(list) {
+    if (!list || list.length === 0) {
+        guestListUI.innerHTML = "<li>No guests found</li>";
+        return;
+    }
+
+    // Helper to find the "real" last name for sorting
+    const getSortName = (fullName) => {
+        if (!fullName) return "";
+        // 1. Take the first person before "&" or "and"
+        let primary = fullName.split(/&| and |, /)[0].trim();
+        // 2. Remove common titles
+        primary = primary.replace(/Mr\.|Mrs\.|Ms\.|Miss|Dr\./gi, "").trim();
+        // 3. Get the last word of what remains
+        return primary.split(" ").pop().toUpperCase();
+    };
+
+    // Sort the list properly using the helper
+    const sorted = [...list].sort((a, b) => {
+        return getSortName(a.Party).localeCompare(getSortName(b.Party));
+    });
+
+    let currentInitial = "";
+    let html = "";
+
+    sorted.forEach(g => {
+        const lastName = getSortName(g.Party);
+        const initial = lastName[0] || "?";
+        
+        // Add a header only when the letter changes
+        if (initial !== currentInitial) {
+            currentInitial = initial;
+            html += `<li class="anchor" id="letter-${initial}">${initial}</li>`;
+        }
+        
+        html += `
+            <li>
+                <span class="name">${g.Party}</span>
+                <span class="table">Table ${g.Table || "TBD"}</span>
+            </li>
+        `;
+    });
+    guestListUI.innerHTML = html;
+}
+
+    // --- Voice Search Feature ---
+    const voiceBtn = document.getElementById('voiceBtn');
+    const recognition = window.SpeechRecognition || window.webkitSpeechRecognition ? new (window.SpeechRecognition || window.webkitSpeechRecognition)() : null;
+
+    if (recognition) {
+        voiceBtn.addEventListener('click', () => {
+            recognition.start();
+            voiceBtn.classList.add('recording');
+        });
+
+        recognition.onresult = (event) => {
+            const transcript = event.results[0][0].transcript;
+            searchBar.value = transcript;
+            // Trigger the filter logic manually
+            searchBar.dispatchEvent(new Event('keyup'));
+            voiceBtn.classList.remove('recording');
+        };
+    } else {
+        voiceBtn.style.display = 'none'; // Hide if browser doesn't support voice
+    }
+
+    // --- Alphabet Nav Builder ---
+    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+    const nav = document.getElementById('alphabetNav');
+    nav.innerHTML = letters.map(l => `<a href="#letter-${l}">${l}</a>`).join("");
+
+        // 3. Filter Logic (The "Live" part)
+        searchBar.addEventListener('keyup', (e) => {
+            const searchString = e.target.value.toLowerCase();
+            const filteredGuests = guests.filter(guest => {
+                return guest.name.toLowerCase().includes(searchString);
+            });
+            displayGuests(filteredGuests);
+        });
+
+    </script>
+</body>
+</html>

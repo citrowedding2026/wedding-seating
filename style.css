@@ -1,0 +1,223 @@
+/* Mobile-First Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Side padding variable for easy adjustments */
+    --side-padding: 8vw; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "lucida grande", "lucida sans unicode", "lucida sans", Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Header Section */
+header {
+    padding: 15vh var(--side-padding) 5vh;
+    text-align: center;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    /* Scales between 28px and 40px based on screen size */
+    font-size: clamp(1.75rem, 8vw, 2.5rem); 
+    line-height: 1.2;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+header .date {
+    font-size: clamp(0.8rem, 3vw, 1rem);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #888888;
+}
+
+/* Main Content Area */
+main {
+    padding: 40px var(--side-padding);
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-size: clamp(1.3rem, 5vw, 1.8rem);
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+/* Search Bar */
+#guestSearch {
+    width: 100%;
+    padding: 15px 0;
+    /* Larger font size prevents iOS auto-zoom on focus */
+    font-size: 1.2rem; 
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    outline: none;
+    border-radius: 0;
+    appearance: none;
+}
+
+#guestSearch:focus {
+    border-bottom: 2px solid #1a1a1a;
+}
+
+/* Guest List */
+#guestList {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#guestList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.name {
+    /* Scales the guest name so it's very easy to read */
+    font-size: clamp(1.1rem, 4.5vw, 1.4rem);
+    font-weight: 400;
+    color: #333333;
+    padding-right: 10px;
+}
+
+.table {
+    font-size: 0.75rem; /* Slightly smaller font to accommodate the word "Table" */
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap; /* Forces "Table 12" to stay on one line */
+    background: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 4px; /* A slight round for a modern look */
+    min-width: 80px; /* Ensures all pills are a consistent size */
+    text-align: center;
+    flex-shrink: 0; /* Prevents the name from squishing the pill */
+    margin-left: 15px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#voiceBtn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+}
+
+.recording {
+    animation: pulse 1.5s infinite;
+    color: #d9534f;
+}
+
+#alphabetNav {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 15px 0;
+    margin: 10px 0 30px 0;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid #eee;
+    /* Hide scrollbar for a cleaner look */
+    scrollbar-width: none; 
+}
+
+#alphabetNav::-webkit-scrollbar {
+    display: none;
+}
+
+#alphabetNav a {
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 10px 15px; /* Larger tap target */
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+}
+
+/* Make the Initial headers in the list stand out more */
+.anchor {
+    background: #fcfcfc;
+    color: #1a1a1a;
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem; /* Larger initial letter */
+    font-weight: bold;
+    padding: 20px 0 10px 0 !important;
+    border-bottom: 1px solid #1a1a1a !important;
+    margin-top: 30px;
+    list-style: none;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+/* Floral Corner Styling */
+.floral {
+    position: absolute;
+    top: 0;
+    width: 120px; /* Adjust size based on your image assets */
+    z-index: -1;   /* Keeps them behind the text */
+    pointer-events: none; /* Guests can't accidentally click them */
+}
+
+.floral-left {
+    left: 0;
+}
+
+.floral-right {
+    right: 0;
+    left: auto;
+    transform: scaleX(-1); /* Flips the image for the right side if using the same file */
+}
+
+/* Monogram Styling */
+.monogram-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#monogram {
+    width: 80px; /* Ideal size for mobile headers */
+    height: auto;
+    opacity: 0.9;
+}
+
+/* Adjust header padding so text doesn't hit the florals */
+header {
+    padding: 60px 20px 40px; 
+    position: relative; /* This acts as the "anchor" for the absolute florals */
+    width: 100%;
+    overflow: hidden; /* Keeps the flipped image from creating a horizontal scrollbar */
+    text-align: center;
+}
