@@ -5,7 +5,9 @@
  },
  {
    "Party": "Mr. Kevin & Mrs. Claire Adams",
-   "Table": 6
+   "Table": 6,
+   "Guest1": "Kevin Adams",
+   "Guest2": "Claire Adams"
  },
  {
    "Party": "Mr. Carl & Mrs. Daphne Agneta",
