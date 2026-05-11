@@ -149,8 +149,14 @@
             const transcript = event.results[0][0].transcript;
             searchBar.value = transcript;
             // Trigger the filter logic manually
-            searchBar.dispatchEvent(new Event('keyup'));
+            searchBar.dispatchEvent(new Event('input'));
             voiceBtn.classList.remove('recording');
+        };
+
+        recognition.onspeechend = () => {
+        recognition.stop();
+        voiceBtn.classList.remove('recording');
+        voiceBtn.style.backgroundColor = "";
         };
     } else {
         voiceBtn.style.display = 'none'; // Hide if browser doesn't support voice
