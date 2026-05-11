@@ -38,19 +38,7 @@
         const searchBar = document.getElementById('guestSearch');
         let guests = [];
 
-        // 1. Load the data
-        /*async function loadGuests() {
-            // Replace with your JSON file path or a simple array
-            guests = [
-                { name: "Alice Johnson", table: "Table 1" },
-                { name: "Bob Smith", table: "Table 4" },
-                { name: "Andrea Steward", table: "Head Table" },
-                { name: "Steven Citro", table: "Head Table" }
-            ];
-            displayGuests(guests);
-        }*/
-
-        // 1. Load the data from the external JSON file
+        // Load the data from the external JSON file
         async function loadGuests() {
             try {
                 // fetch() looks for the file on your server
@@ -75,53 +63,71 @@
         // Initialize the app
         loadGuests();
 
-        // 2. Display the data
-        // --- Alphabet Grouping Logic ---
+        //Add dynamic live search
+        searchBar.addEventListener('input', (e) => {
+            const searchString = e.target.value.toLowerCase();
+            
+            const filteredGuests = guests.filter(guest => {
+                // We use 'Party' here to match your JSON headers
+                const nameToSearch = (guest.Party || "").toLowerCase();
+                return nameToSearch.includes(searchString);
+            });
+            
+            displayGuests(filteredGuests);
+        });
+
         function displayGuests(list) {
-    if (!list || list.length === 0) {
-        guestListUI.innerHTML = "<li>No guests found</li>";
-        return;
-    }
-
-    // Helper to find the "real" last name for sorting
-    const getSortName = (fullName) => {
-        if (!fullName) return "";
-        // 1. Take the first person before "&" or "and"
-        let primary = fullName.split(/&| and |, /)[0].trim();
-        // 2. Remove common titles
-        primary = primary.replace(/Mr\.|Mrs\.|Ms\.|Miss|Dr\./gi, "").trim();
-        // 3. Get the last word of what remains
-        return primary.split(" ").pop().toUpperCase();
-    };
-
-    // Sort the list properly using the helper
-    const sorted = [...list].sort((a, b) => {
-        return getSortName(a.Party).localeCompare(getSortName(b.Party));
-    });
-
-    let currentInitial = "";
-    let html = "";
-
-    sorted.forEach(g => {
-        const lastName = getSortName(g.Party);
-        const initial = lastName[0] || "?";
-        
-        // Add a header only when the letter changes
-        if (initial !== currentInitial) {
-            currentInitial = initial;
-            html += `<li class="anchor" id="letter-${initial}">${initial}</li>`;
+        if (!list || list.length === 0) {
+            guestListUI.innerHTML = "<li>No guests found</li>";
+            return;
         }
-        
-        html += `
-            <li>
-                <span class="name">${g.Party}</span>
-                <span class="table">Table ${g.Table || "TBD"}</span>
-            </li>
-        `;
-    });
-    guestListUI.innerHTML = html;
-}
 
+        let currentInitial = "";
+        let html = "";
+
+        list.forEach(g => {
+            const guestName = g.Party || "";
+            lastInitial = g.LastNameInit || "";
+
+            // SMART INITIAL LOGIC:
+            // 1. Split to get just the first person (before any '&' or 'and')
+            // 2. Remove any prefix titles
+            // 3. Grab the last word of that remaining string
+            const getDisplayInitial = (fullName) => {
+                //let firstPart = fullName.split(/&| and /)[0].trim();
+                let cleanName = fullName.replace(/Mr\.|Mrs\.|Ms\.|Miss|Dr\./gi, "").trim();
+                let nameArray = cleanName.split(" ");
+                let lastName = nameArray[nameArray.length - 1]; 
+                console.log("lastName: " + lastName);
+                //console.log(firstPart);
+                console.log(cleanName);
+                console.log(nameArray);
+                return lastName.charAt(0).toUpperCase();
+            };
+
+            let initial = "";
+            if (lastInitial ===""){
+                initial = getDisplayInitial(guestName);
+            }
+            else{
+                initial = lastInitial;
+            }
+            
+            // Only drop a new header if the ACTUAL last name initial changes
+            if (initial !== currentInitial) {
+                currentInitial = initial;
+                html += `<li class="anchor" id="letter-${initial}">${initial}</li>`;
+            }
+            
+            html += `
+                <li>
+                    <span class="name">${guestName}</span>
+                    <span class="table">Table ${g.Table || "TBD"}</span>
+                </li>
+            `;
+        });
+        guestListUI.innerHTML = html;
+    }
     // --- Voice Search Feature ---
     const voiceBtn = document.getElementById('voiceBtn');
     const recognition = window.SpeechRecognition || window.webkitSpeechRecognition ? new (window.SpeechRecognition || window.webkitSpeechRecognition)() : null;

@@ -21,7 +21,8 @@
  },
  {
    "Party": "Ms. Susan Bonfiglio & Mr. Vincent Pinzone",
-   "Table": 2
+   "Table": 2,
+   "LastNameInit": "B"
  },
  {
    "Party": "Mr. Stephen & Mrs. Larissa Borchard",
@@ -49,7 +50,8 @@
  },
  {
    "Party": "Miss Nicole Carlucci & Mr. Jeff Guzman",
-   "Table": 6
+   "Table": 6,
+   "LastNameInit": "C"
  },
  {
    "Party": "Mr. Peter James Centineo",
@@ -61,7 +63,8 @@
  },
  {
    "Party": "Mr. Robert Citro & Mr. Mark Taylor",
-   "Table": 4
+   "Table": 4,
+   "LastNameInit": "C"
  },
  {
    "Party": "Mr. Steven & Mrs. Anna Citro",
@@ -77,7 +80,8 @@
  },
  {
    "Party": "Mr. Matthew Clark & Ms. Cindy Zheng",
-   "Table": 6
+   "Table": 6,
+   "LastNameInit": "C"
  },
  {
    "Party": "Ms. Laura Clark",
@@ -89,15 +93,17 @@
  },
  {
    "Party": "Mr. Michael Contrastano & Mr. Michael Contrastano's Guest",
-   "Table": 12
+   "Table": 12,
+   "LastNameInit": "C"
  },
  {
    "Party": "Mr. Brandon & Mrs. Mary Crilly",
    "Table": 11
  },
  {
-   "Party": "Mr. Bruce Cronauer & Miss Margie Cronauer Feather",
-   "Table": 10
+   "Party": "Mr. Bruce Cronauer & Miss Margie Cronauer-Feather",
+   "Table": 10,
+   "LastNameInit": "C"
  },
  {
    "Party": "Ms. Katherine Donnelly",
@@ -109,7 +115,8 @@
  },
  {
    "Party": "Ms. Nadia Felix & Ms. Farah Leconte",
-   "Table": 12
+   "Table": 12,
+   "LastNameInit": "F"
  },
  {
    "Party": "Mr. Salvatore & Mrs. Olivia Gambino",
@@ -129,7 +136,8 @@
  },
  {
    "Party": "Mrs. Toniann Guardino & Mr. Paul Ambrasiunas",
-   "Table": 14
+   "Table": 14,
+   "LastNameInit": "G"
  },
  {
    "Party": "Mr. Stuart & Mrs. Janna Hindman",
@@ -145,11 +153,13 @@
  },
  {
    "Party": "Mr. Rudolph Kardos & Ms. Anna Colm",
-   "Table": 8
+   "Table": 8,
+   "LastNameInit": "K"
  },
  {
    "Party": "Miss Kennedy MacFadyen & Miss Carly Keller",
-   "Table": 12
+   "Table": 12,
+   "LastNameInit": "M"
  },
  {
    "Party": "Mr. James & Mrs. Deborah Magnuski",
@@ -164,7 +174,7 @@
    "Table": 13
  },
  {
-   "Party": "Mr. William J. Magnuski & Ms. Kaci Perez",
+   "Party": "Mr. William J. Magnuski",
    "Table": 13
  },
  {
@@ -213,7 +223,8 @@
  },
  {
    "Party": "Miss Vanessa Ogno & Miss Kaitlyn Grinvalsky",
-   "Table": 9
+   "Table": 9,
+   "LastNameInit": "O"
  },
  {
    "Party": "Mr. Louis M. & Mrs. Sheila Ogno",
@@ -221,7 +232,8 @@
  },
  {
    "Party": "Mr. Louis M. Ogno III & Ava Conrade",
-   "Table": 9
+   "Table": 9,
+   "LastNameInit": "O"
  },
  {
    "Party": "Miss Sarah Palad & Mr. Jekell Pascua",
@@ -229,7 +241,8 @@
  },
  {
    "Party": "Mr. Brian Pratt & Ms. Amy Hanlon",
-   "Table": 8
+   "Table": 8,
+   "LastNameInit": "P"
  },
  {
    "Party": "Mr. Jack & Jack Pritchard",
