@@ -27,7 +27,8 @@
   {
     "Party": "Ms. Susan Bonfiglio & Mr. Vincent Pinzone",
     "Table": 2,
-    "Guests": ["Susan Bonfiglio", "Vincent Pinzone"]
+    "Guests": ["Susan Bonfiglio", "Vincent Pinzone"],
+    "LastNameInit": "B"
   },
   {
     "Party": "Mr. Stephen & Mrs. Larissa Borchard",
@@ -62,7 +63,8 @@
   {
     "Party": "Miss Nicole Carlucci & Mr. Jeff Guzman",
     "Table": 6,
-    "Guests": ["Nicole Carlucci", "Jeff Guzman"]
+    "Guests": ["Nicole Carlucci", "Jeff Guzman"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Mr. Peter James Centineo",
@@ -77,7 +79,8 @@
   {
     "Party": "Mr. Robert Citro & Mr. Mark Taylor",
     "Table": 4,
-    "Guests": ["Robert Citro", "Mark Taylor"]
+    "Guests": ["Robert Citro", "Mark Taylor"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Mr. Steven & Mrs. Anna Citro",
@@ -97,7 +100,8 @@
   {
     "Party": "Mr. Matthew Clark & Ms. Cindy Zheng",
     "Table": 6,
-    "Guests": ["Matthew Clark", "Cindy Zheng"]
+    "Guests": ["Matthew Clark", "Cindy Zheng"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Ms. Laura Clark",
@@ -107,12 +111,14 @@
   {
     "Party": "Mr. Frank Connell & Ms. Kristy Carothers",
     "Table": 8,
-    "Guests": ["Frank Connell", "Kristy Carothers"]
+    "Guests": ["Frank Connell", "Kristy Carothers"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Mr. Michael Contrastano & Mr. Michael Contrastano's Guest",
     "Table": 12,
-    "Guests": ["Michael Contrastano", "Michael Contrastano's Guest"]
+    "Guests": ["Michael Contrastano", "Michael Contrastano's Guest"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Mr. Brandon & Mrs. Mary Crilly",
@@ -122,7 +128,8 @@
   {
     "Party": "Mr. Bruce Cronauer & Miss Margie Cronauer-Feather",
     "Table": 10,
-    "Guests": ["Bruce Cronauer", "Margie Cronauer-Feather"]
+    "Guests": ["Bruce Cronauer", "Margie Cronauer-Feather"],
+    "LastNameInit": "C"
   },
   {
     "Party": "Ms. Katherine Donnelly",
@@ -137,7 +144,8 @@
   {
     "Party": "Ms. Nadia Felix & Ms. Farah Leconte",
     "Table": 12,
-    "Guests": ["Nadia Felix", "Farah Leconte"]
+    "Guests": ["Nadia Felix", "Farah Leconte"],
+    "LastNameInit": "F"
   },
   {
     "Party": "Mr. Salvatore & Mrs. Olivia Gambino",
@@ -147,12 +155,14 @@
   {
     "Party": "Ms. Allyson Glover & Ms. Alicia Guillemette",
     "Table": 5,
-    "Guests": ["Allyson Glover", "Alicia Guillemette"]
+    "Guests": ["Allyson Glover", "Alicia Guillemette"],
+    "LastNameInit": "G"
   },
   {
     "Party": "Ms. Tara Glover & Mr. Michael Garay",
     "Table": 5,
-    "Guests": ["Tara Glover", "Michael Garay"]
+    "Guests": ["Tara Glover", "Michael Garay"],
+    "LastNameInit": "G"
   },
   {
     "Party": "Ms. Sheila Glover",
@@ -162,7 +172,8 @@
   {
     "Party": "Mrs. Toniann Guardino & Mr. Paul Ambrasiunas",
     "Table": 14,
-    "Guests": ["Toniann Guardino", "Paul Ambrasiunas"]
+    "Guests": ["Toniann Guardino", "Paul Ambrasiunas"],
+    "LastNameInit": "G"
   },
   {
     "Party": "Mr. Stuart & Mrs. Janna Hindman",
@@ -182,12 +193,14 @@
   {
     "Party": "Mr. Rudolph Kardos & Ms. Anna Colm",
     "Table": 8,
-    "Guests": ["Rudolph Kardos", "Anna Colm"]
+    "Guests": ["Rudolph Kardos", "Anna Colm"],
+    "LastNameInit": "K"
   },
   {
     "Party": "Miss Kennedy MacFadyen & Miss Carly Keller",
     "Table": 12,
-    "Guests": ["Kennedy MacFadyen", "Carly Keller"]
+    "Guests": ["Kennedy MacFadyen", "Carly Keller"],
+    "LastNameInit": "M"
   },
   {
     "Party": "Mr. James & Mrs. Deborah Magnuski",
@@ -267,17 +280,19 @@
   {
     "Party": "Miss Vanessa Ogno & Miss Kaitlyn Grinvalsky",
     "Table": 9,
-    "Guests": ["Vanessa Ogno", "Kaitlyn Grinvalsky"]
+    "Guests": ["Vanessa Ogno", "Kaitlyn Grinvalsky"],
+    "LastNameInit": "O"
   },
   {
     "Party": "Mr. Louis M. & Mrs. Sheila Ogno",
     "Table": 9,
-    "Guests": ["Louis M. Ogno", "Sheila Ogno"]
+    "Guests": ["Louis Ogno", "Sheila Ogno"]
   },
   {
     "Party": "Mr. Louis M. Ogno III & Ava Conrade",
     "Table": 9,
-    "Guests": ["Louis M. Ogno III", "Ava Conrade"]
+    "Guests": ["Louis Ogno III", "Ava Conrade"],
+    "LastNameInit": "O"
   },
   {
     "Party": "Miss Sarah Palad & Mr. Jekell Pascua",
@@ -287,7 +302,8 @@
   {
     "Party": "Mr. Brian Pratt & Ms. Amy Hanlon",
     "Table": 8,
-    "Guests": ["Brian Pratt", "Amy Hanlon"]
+    "Guests": ["Brian Pratt", "Amy Hanlon"],
+    "LastNameInit": "P"
   },
   {
     "Party": "Mr. Jack & Jack Pritchard",
