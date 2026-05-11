@@ -1,309 +1,367 @@
 [
-   {
-   "Party": "Ms. Lisa Acierno",
-   "Table": 12
- },
- {
-   "Party": "Mr. Kevin & Mrs. Claire Adams",
-   "Table": 6,
-   "Guest1": "Kevin Adams",
-   "Guest2": "Claire Adams"
- },
- {
-   "Party": "Mr. Carl & Mrs. Daphne Agneta",
-   "Table": 4
- },
- {
-   "Party": "Ms. Caitlin Armstrong",
-   "Table": 13
- },
- {
-   "Party": "Mr. Michael & Mrs. Mary Kate Bellucci",
-   "Table": 6
- },
- {
-   "Party": "Ms. Susan Bonfiglio & Mr. Vincent Pinzone",
-   "Table": 2,
-   "LastNameInit": "B"
- },
- {
-   "Party": "Mr. Stephen & Mrs. Larissa Borchard",
-   "Table": 10
- },
- {
-   "Party": "Mr. John & Mrs. Joanne Bottiglieri",
-   "Table": 2
- },
- {
-   "Party": "Mr. Jason & Skye Broadway",
-   "Table": 14
- },
- {
-   "Party": "Mr. Luis & Mrs. Lynn Camporeale",
-   "Table": 2
- },
- {
-   "Party": "Mr. Barry & Mrs. Sue Canovas",
-   "Table": 11
- },
- {
-   "Party": "Mr. Joseph & Mrs. Phyllis Canovas",
-   "Table": 11
- },
- {
-   "Party": "Miss Nicole Carlucci & Mr. Jeff Guzman",
-   "Table": 6,
-   "LastNameInit": "C"
- },
- {
-   "Party": "Mr. Peter James Centineo",
-   "Table": 4
- },
- {
-   "Party": "Mr. Nicholas Citro",
-   "Table": 2
- },
- {
-   "Party": "Mr. Robert Citro & Mr. Mark Taylor",
-   "Table": 4,
-   "LastNameInit": "C"
- },
- {
-   "Party": "Mr. Steven & Mrs. Anna Citro",
-   "Table": 2
- },
- {
-   "Party": "Ms. Janet Citro",
-   "Table": 4
- },
- {
-   "Party": "Mr. Donald & Mrs. Elizabeth Clark",
-   "Table": 7
- },
- {
-   "Party": "Mr. Matthew Clark & Ms. Cindy Zheng",
-   "Table": 6,
-   "LastNameInit": "C"
- },
- {
-   "Party": "Ms. Laura Clark",
-   "Table": 6
- },
- {
-   "Party": "Mr. Frank Connell & Ms. Kristy Carothers",
-   "Table": 8
- },
- {
-   "Party": "Mr. Michael Contrastano & Mr. Michael Contrastano's Guest",
-   "Table": 12,
-   "LastNameInit": "C"
- },
- {
-   "Party": "Mr. Brandon & Mrs. Mary Crilly",
-   "Table": 11
- },
- {
-   "Party": "Mr. Bruce Cronauer & Miss Margie Cronauer-Feather",
-   "Table": 10,
-   "LastNameInit": "C"
- },
- {
-   "Party": "Ms. Katherine Donnelly",
-   "Table": 13
- },
- {
-   "Party": "Ms. Kerry Donnelly",
-   "Table": 5
- },
- {
-   "Party": "Ms. Nadia Felix & Ms. Farah Leconte",
-   "Table": 12,
-   "LastNameInit": "F"
- },
- {
-   "Party": "Mr. Salvatore & Mrs. Olivia Gambino",
-   "Table": 1
- },
- {
-   "Party": "Ms. Allyson Glover & Ms. Alicia Guillemette",
-   "Table": 5
- },
- {
-   "Party": "Ms. Tara Glover & Mr. Michael Garay",
-   "Table": 5
- },
- {
-   "Party": "Ms. Sheila Glover",
-   "Table": 5
- },
- {
-   "Party": "Mrs. Toniann Guardino & Mr. Paul Ambrasiunas",
-   "Table": 14,
-   "LastNameInit": "G"
- },
- {
-   "Party": "Mr. Stuart & Mrs. Janna Hindman",
-   "Table": 10
- },
- {
-   "Party": "Mr. John & Mrs. Debra Hood",
-   "Table": 11
- },
- {
-   "Party": "Mr. Christopher & Mrs. Colleen Howard",
-   "Table": 4
- },
- {
-   "Party": "Mr. Rudolph Kardos & Ms. Anna Colm",
-   "Table": 8,
-   "LastNameInit": "K"
- },
- {
-   "Party": "Miss Kennedy MacFadyen & Miss Carly Keller",
-   "Table": 12,
-   "LastNameInit": "M"
- },
- {
-   "Party": "Mr. James & Mrs. Deborah Magnuski",
-   "Table": 7
- },
- {
-   "Party": "Mr. John & Mrs. Rita Magnuski",
-   "Table": 7
- },
- {
-   "Party": "Mr. Raymond & Mrs. Theresa Magnuski",
-   "Table": 13
- },
- {
-   "Party": "Mr. William J. Magnuski",
-   "Table": 13
- },
- {
-   "Party": "Ms. Eileen Magnuski",
-   "Table": 7
- },
- {
-   "Party": "Ms. Kristen Magnuski",
-   "Table": 7
- },
- {
-   "Party": "Mr. Thomas Mallen Sr.",
-   "Table": 3
- },
- {
-   "Party": "Mr. John & Mrs. Michelle Mancuso",
-   "Table": 1
- },
- {
-   "Party": "Mr. Joseph & Mrs. Amanda Marchio",
-   "Table": 10
- },
- {
-   "Party": "Mr. Kevin & Mrs. Andrea McCarthy",
-   "Table": 8
- },
- {
-   "Party": "Mr. Michael & Mrs. Colleen McVey",
-   "Table": 13
- },
- {
-   "Party": "Mr. Michael T. & Mrs. Mary McVey",
-   "Table": 3
- },
- {
-   "Party": "Ms. Kathleen McVey",
-   "Table": 6
- },
- {
-   "Party": "Mr. Christopher Morillo",
-   "Table": 12
- },
- {
-   "Party": "Miss Jeanine Ogno",
-   "Table": 9
- },
- {
-   "Party": "Miss Vanessa Ogno & Miss Kaitlyn Grinvalsky",
-   "Table": 9,
-   "LastNameInit": "O"
- },
- {
-   "Party": "Mr. Louis M. & Mrs. Sheila Ogno",
-   "Table": 9
- },
- {
-   "Party": "Mr. Louis M. Ogno III & Ava Conrade",
-   "Table": 9,
-   "LastNameInit": "O"
- },
- {
-   "Party": "Miss Sarah Palad & Mr. Jekell Pascua",
-   "Table": 14
- },
- {
-   "Party": "Mr. Brian Pratt & Ms. Amy Hanlon",
-   "Table": 8,
-   "LastNameInit": "P"
- },
- {
-   "Party": "Mr. Jack & Jack Pritchard",
-   "Table": 11
- },
- {
-   "Party": "Mr. Michael Purcell",
-   "Table": 10
- },
- {
-   "Party": "Mr. George & Mrs. Joan Reeder",
-   "Table": 3
- },
- {
-   "Party": "Mr. Joseph & Mrs. Anne Marie Riccardi",
-   "Table": 3
- },
- {
-   "Party": "Mr. Mark & Mrs. Erin Salzillo",
-   "Table": 6
- },
- {
-   "Party": "Mr. Justin & Mrs. Natalie Schanzer",
-   "Table": 4
- },
- {
-   "Party": "Mrs. Ashley & Mr. Nick Schmidt",
-   "Table": 12
- },
- {
-   "Party": "Mr. Wayne Steward & Mrs. Gina Sintyago",
-   "Table": 1
- },
- {
-   "Party": "Ms. Harmony Sintyago",
-   "Table": 1
- },
- {
-   "Party": "Ms. Sherry Sintyago",
-   "Table": 1
- },
- {
-   "Party": "Mr. Darrel & Mrs. Dawn Steward",
-   "Table": 1
- },
- {
-   "Party": "Ms. Jennifer L. Steward",
-   "Table": 5
- },
- {
-   "Party": "Ms. Louise Steward",
-   "Table": 3
- },
- {
-   "Party": "Mrs. Shameca Trotman-Mitchell",
-   "Table": 14
- },
- {
-   "Party": "Ms. Phyllis Trotman",
-   "Table": 14
- }
+  {
+    "Party": "Ms. Lisa Acierno",
+    "Table": 12,
+    "Guests": ["Lisa Acierno"]
+  },
+  {
+    "Party": "Mr. Kevin & Mrs. Claire Adams",
+    "Table": 6,
+    "Guests": ["Kevin Adams", "Claire Adams"]
+  },
+  {
+    "Party": "Mr. Carl & Mrs. Daphne Agneta",
+    "Table": 4,
+    "Guests": ["Carl Agneta", "Daphne Agneta"]
+  },
+  {
+    "Party": "Ms. Caitlin Armstrong",
+    "Table": 13,
+    "Guests": ["Caitlin Armstrong"]
+  },
+  {
+    "Party": "Mr. Michael & Mrs. Mary Kate Bellucci",
+    "Table": 6,
+    "Guests": ["Michael Bellucci", "Mary Kate Bellucci"]
+  },
+  {
+    "Party": "Ms. Susan Bonfiglio & Mr. Vincent Pinzone",
+    "Table": 2,
+    "Guests": ["Susan Bonfiglio", "Vincent Pinzone"]
+  },
+  {
+    "Party": "Mr. Stephen & Mrs. Larissa Borchard",
+    "Table": 10,
+    "Guests": ["Stephen Borchard", "Larissa Borchard"]
+  },
+  {
+    "Party": "Mr. John & Mrs. Joanne Bottiglieri",
+    "Table": 2,
+    "Guests": ["John Bottiglieri", "Joanne Bottiglieri"]
+  },
+  {
+    "Party": "Mr. Jason & Skye Broadway",
+    "Table": 14,
+    "Guests": ["Jason Broadway", "Skye Broadway"]
+  },
+  {
+    "Party": "Mr. Luis & Mrs. Lynn Camporeale",
+    "Table": 2,
+    "Guests": ["Luis Camporeale", "Lynn Camporeale"]
+  },
+  {
+    "Party": "Mr. Barry & Mrs. Sue Canovas",
+    "Table": 11,
+    "Guests": ["Barry Canovas", "Sue Canovas"]
+  },
+  {
+    "Party": "Mr. Joseph & Mrs. Phyllis Canovas",
+    "Table": 11,
+    "Guests": ["Joseph Canovas", "Phyllis Canovas"]
+  },
+  {
+    "Party": "Miss Nicole Carlucci & Mr. Jeff Guzman",
+    "Table": 6,
+    "Guests": ["Nicole Carlucci", "Jeff Guzman"]
+  },
+  {
+    "Party": "Mr. Peter James Centineo",
+    "Table": 4,
+    "Guests": ["Peter James Centineo"]
+  },
+  {
+    "Party": "Mr. Nicholas Citro",
+    "Table": 2,
+    "Guests": ["Nicholas Citro"]
+  },
+  {
+    "Party": "Mr. Robert Citro & Mr. Mark Taylor",
+    "Table": 4,
+    "Guests": ["Robert Citro", "Mark Taylor"]
+  },
+  {
+    "Party": "Mr. Steven & Mrs. Anna Citro",
+    "Table": 2,
+    "Guests": ["Steven Citro", "Anna Citro"]
+  },
+  {
+    "Party": "Ms. Janet Citro",
+    "Table": 4,
+    "Guests": ["Janet Citro"]
+  },
+  {
+    "Party": "Mr. Donald & Mrs. Elizabeth Clark",
+    "Table": 7,
+    "Guests": ["Donald Clark", "Elizabeth Clark"]
+  },
+  {
+    "Party": "Mr. Matthew Clark & Ms. Cindy Zheng",
+    "Table": 6,
+    "Guests": ["Matthew Clark", "Cindy Zheng"]
+  },
+  {
+    "Party": "Ms. Laura Clark",
+    "Table": 6,
+    "Guests": ["Laura Clark"]
+  },
+  {
+    "Party": "Mr. Frank Connell & Ms. Kristy Carothers",
+    "Table": 8,
+    "Guests": ["Frank Connell", "Kristy Carothers"]
+  },
+  {
+    "Party": "Mr. Michael Contrastano & Mr. Michael Contrastano's Guest",
+    "Table": 12,
+    "Guests": ["Michael Contrastano", "Michael Contrastano's Guest"]
+  },
+  {
+    "Party": "Mr. Brandon & Mrs. Mary Crilly",
+    "Table": 11,
+    "Guests": ["Brandon Crilly", "Mary Crilly"]
+  },
+  {
+    "Party": "Mr. Bruce Cronauer & Miss Margie Cronauer-Feather",
+    "Table": 10,
+    "Guests": ["Bruce Cronauer", "Margie Cronauer-Feather"]
+  },
+  {
+    "Party": "Ms. Katherine Donnelly",
+    "Table": 13,
+    "Guests": ["Katherine Donnelly"]
+  },
+  {
+    "Party": "Ms. Kerry Donnelly",
+    "Table": 5,
+    "Guests": ["Kerry Donnelly"]
+  },
+  {
+    "Party": "Ms. Nadia Felix & Ms. Farah Leconte",
+    "Table": 12,
+    "Guests": ["Nadia Felix", "Farah Leconte"]
+  },
+  {
+    "Party": "Mr. Salvatore & Mrs. Olivia Gambino",
+    "Table": 1,
+    "Guests": ["Salvatore Gambino", "Olivia Gambino"]
+  },
+  {
+    "Party": "Ms. Allyson Glover & Ms. Alicia Guillemette",
+    "Table": 5,
+    "Guests": ["Allyson Glover", "Alicia Guillemette"]
+  },
+  {
+    "Party": "Ms. Tara Glover & Mr. Michael Garay",
+    "Table": 5,
+    "Guests": ["Tara Glover", "Michael Garay"]
+  },
+  {
+    "Party": "Ms. Sheila Glover",
+    "Table": 5,
+    "Guests": ["Sheila Glover"]
+  },
+  {
+    "Party": "Mrs. Toniann Guardino & Mr. Paul Ambrasiunas",
+    "Table": 14,
+    "Guests": ["Toniann Guardino", "Paul Ambrasiunas"]
+  },
+  {
+    "Party": "Mr. Stuart & Mrs. Janna Hindman",
+    "Table": 10,
+    "Guests": ["Stuart Hindman", "Janna Hindman"]
+  },
+  {
+    "Party": "Mr. John & Mrs. Debra Hood",
+    "Table": 11,
+    "Guests": ["John Hood", "Debra Hood"]
+  },
+  {
+    "Party": "Mr. Christopher & Mrs. Colleen Howard",
+    "Table": 4,
+    "Guests": ["Christopher Howard", "Colleen Howard"]
+  },
+  {
+    "Party": "Mr. Rudolph Kardos & Ms. Anna Colm",
+    "Table": 8,
+    "Guests": ["Rudolph Kardos", "Anna Colm"]
+  },
+  {
+    "Party": "Miss Kennedy MacFadyen & Miss Carly Keller",
+    "Table": 12,
+    "Guests": ["Kennedy MacFadyen", "Carly Keller"]
+  },
+  {
+    "Party": "Mr. James & Mrs. Deborah Magnuski",
+    "Table": 7,
+    "Guests": ["James Magnuski", "Deborah Magnuski"]
+  },
+  {
+    "Party": "Mr. John & Mrs. Rita Magnuski",
+    "Table": 7,
+    "Guests": ["John Magnuski", "Rita Magnuski"]
+  },
+  {
+    "Party": "Mr. Raymond & Mrs. Theresa Magnuski",
+    "Table": 13,
+    "Guests": ["Raymond Magnuski", "Theresa Magnuski"]
+  },
+  {
+    "Party": "Mr. William J. Magnuski",
+    "Table": 13,
+    "Guests": ["William J. Magnuski"]
+  },
+  {
+    "Party": "Ms. Eileen Magnuski",
+    "Table": 7,
+    "Guests": ["Eileen Magnuski"]
+  },
+  {
+    "Party": "Ms. Kristen Magnuski",
+    "Table": 7,
+    "Guests": ["Kristen Magnuski"]
+  },
+  {
+    "Party": "Mr. Thomas Mallen Sr.",
+    "Table": 3,
+    "Guests": ["Thomas Mallen Sr."]
+  },
+  {
+    "Party": "Mr. John & Mrs. Michelle Mancuso",
+    "Table": 1,
+    "Guests": ["John Mancuso", "Michelle Mancuso"]
+  },
+  {
+    "Party": "Mr. Joseph & Mrs. Amanda Marchio",
+    "Table": 10,
+    "Guests": ["Joseph Marchio", "Amanda Marchio"]
+  },
+  {
+    "Party": "Mr. Kevin & Mrs. Andrea McCarthy",
+    "Table": 8,
+    "Guests": ["Kevin McCarthy", "Andrea McCarthy"]
+  },
+  {
+    "Party": "Mr. Michael & Mrs. Colleen McVey",
+    "Table": 13,
+    "Guests": ["Michael McVey", "Colleen McVey"]
+  },
+  {
+    "Party": "Mr. Michael T. & Mrs. Mary McVey",
+    "Table": 3,
+    "Guests": ["Michael T. McVey", "Mary McVey"]
+  },
+  {
+    "Party": "Ms. Kathleen McVey",
+    "Table": 6,
+    "Guests": ["Kathleen McVey"]
+  },
+  {
+    "Party": "Mr. Christopher Morillo",
+    "Table": 12,
+    "Guests": ["Christopher Morillo"]
+  },
+  {
+    "Party": "Miss Jeanine Ogno",
+    "Table": 9,
+    "Guests": ["Jeanine Ogno"]
+  },
+  {
+    "Party": "Miss Vanessa Ogno & Miss Kaitlyn Grinvalsky",
+    "Table": 9,
+    "Guests": ["Vanessa Ogno", "Kaitlyn Grinvalsky"]
+  },
+  {
+    "Party": "Mr. Louis M. & Mrs. Sheila Ogno",
+    "Table": 9,
+    "Guests": ["Louis M. Ogno", "Sheila Ogno"]
+  },
+  {
+    "Party": "Mr. Louis M. Ogno III & Ava Conrade",
+    "Table": 9,
+    "Guests": ["Louis M. Ogno III", "Ava Conrade"]
+  },
+  {
+    "Party": "Miss Sarah Palad & Mr. Jekell Pascua",
+    "Table": 14,
+    "Guests": ["Sarah Palad", "Jekell Pascua"]
+  },
+  {
+    "Party": "Mr. Brian Pratt & Ms. Amy Hanlon",
+    "Table": 8,
+    "Guests": ["Brian Pratt", "Amy Hanlon"]
+  },
+  {
+    "Party": "Mr. Jack & Jack Pritchard",
+    "Table": 11,
+    "Guests": ["Jack Pritchard", "Jack Pritchard"]
+  },
+  {
+    "Party": "Mr. Michael Purcell",
+    "Table": 10,
+    "Guests": ["Michael Purcell"]
+  },
+  {
+    "Party": "Mr. George & Mrs. Joan Reeder",
+    "Table": 3,
+    "Guests": ["George Reeder", "Joan Reeder"]
+  },
+  {
+    "Party": "Mr. Joseph & Mrs. Anne Marie Riccardi",
+    "Table": 3,
+    "Guests": ["Joseph Riccardi", "Anne Marie Riccardi"]
+  },
+  {
+    "Party": "Mr. Mark & Mrs. Erin Salzillo",
+    "Table": 6,
+    "Guests": ["Mark Salzillo", "Erin Salzillo"]
+  },
+  {
+    "Party": "Mr. Justin & Mrs. Natalie Schanzer",
+    "Table": 4,
+    "Guests": ["Justin Schanzer", "Natalie Schanzer"]
+  },
+  {
+    "Party": "Mrs. Ashley & Mr. Nick Schmidt",
+    "Table": 12,
+    "Guests": ["Ashley Schmidt", "Nick Schmidt"]
+  },
+  {
+    "Party": "Mr. Wayne Steward & Mrs. Gina Sintyago",
+    "Table": 1,
+    "Guests": ["Wayne Steward", "Gina Sintyago"]
+  },
+  {
+    "Party": "Ms. Harmony Sintyago",
+    "Table": 1,
+    "Guests": ["Harmony Sintyago"]
+  },
+  {
+    "Party": "Ms. Sherry Sintyago",
+    "Table": 1,
+    "Guests": ["Sherry Sintyago"]
+  },
+  {
+    "Party": "Mr. Darrel & Mrs. Dawn Steward",
+    "Table": 1,
+    "Guests": ["Darrel Steward", "Dawn Steward"]
+  },
+  {
+    "Party": "Ms. Jennifer L. Steward",
+    "Table": 5,
+    "Guests": ["Jennifer L. Steward"]
+  },
+  {
+    "Party": "Ms. Louise Steward",
+    "Table": 3,
+    "Guests": ["Louise Steward"]
+  },
+  {
+    "Party": "Mrs. Shameca Trotman-Mitchell",
+    "Table": 14,
+    "Guests": ["Shameca Trotman-Mitchell"]
+  },
+  {
+    "Party": "Ms. Phyllis Trotman",
+    "Table": 14,
+    "Guests": ["Phyllis Trotman"]
+  }
 ]

@@ -65,15 +65,22 @@
 
         //Add dynamic live search
         searchBar.addEventListener('input', (e) => {
-            const searchString = e.target.value.toLowerCase();
+        const searchString = e.target.value.toLowerCase();
+        
+        const filteredGuests = guests.filter(guest => {
+            // 1. Still search the main Party name (e.g., "Mr. & Mrs. Adams")
+            const partyMatch = (guest.Party || "").toLowerCase().includes(searchString);
             
-            const filteredGuests = guests.filter(guest => {
-                // We use 'Party' here to match your JSON headers
-                const nameToSearch = (guest.Party || "").toLowerCase();
-                return nameToSearch.includes(searchString);
-            });
+            // 2. Also search every individual name in the Guests array (e.g., "Steven Citro")
+            const individualMatch = guest.Guests && guest.Guests.some(name => 
+                name.toLowerCase().includes(searchString)
+            );
             
-            displayGuests(filteredGuests);
+            // Return true if either the party name OR any individual guest name matches
+            return partyMatch || individualMatch;
+        });
+        
+        displayGuests(filteredGuests);
         });
 
         function displayGuests(list) {
@@ -155,13 +162,13 @@
     nav.innerHTML = letters.map(l => `<a href="#letter-${l}">${l}</a>`).join("");
 
         // 3. Filter Logic (The "Live" part)
-        searchBar.addEventListener('keyup', (e) => {
+        /*searchBar.addEventListener('keyup', (e) => {
             const searchString = e.target.value.toLowerCase();
             const filteredGuests = guests.filter(guest => {
                 return guest.name.toLowerCase().includes(searchString);
             });
             displayGuests(filteredGuests);
-        });
+        });*/
 
     </script>
 </body>
